@@ -1,12 +1,9 @@
-bin/*
-!/plugins
-!/plugins/android.json
-!/plugins/fetch.json
-
 .DS_Store
 
-hooks/*
-plugins/*
-platforms/*
+.vscode/
 
-node_modules/*
+bin/
+hooks/
+plugins/
+platforms/
+node_modules/
