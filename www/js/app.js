@@ -32,3 +32,15 @@ $('.acao-limpar').on('click', function() {
     $('#numero-mesa').val('');
     $('.badge').remove();
 });
+
+$('.scan-qrcode').on('click', function() {
+    cordova.plugins.barcodeScanner.scan(
+        function(resultado) {
+
+        },
+
+        function(error) {
+            
+        }
+    );
+});
