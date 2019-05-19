@@ -7,7 +7,7 @@
     <author email="brunolima.18@outlook.com">Bruno R. Lima</author>
 
     <content src="index.html" />
-    <access origin="*" />
+    <access origin="http://cozinhapp.sergiolopes.org" />
 
     <engine name="android" />
 
